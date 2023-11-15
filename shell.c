@@ -18,7 +18,6 @@ int main(int argc __attribute__((unused)), char **argv)
 	int i, type_command = 0;
 	size_t n = 0;
 	int status = 0;
-	char *shell_name = NULL;
 	char *line = NULL;
 	char **commands = NULL;
 
