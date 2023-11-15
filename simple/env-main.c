@@ -9,6 +9,8 @@ int main(int ac, char **av, char **env)
 {
     unsigned int i;
 
+    (void)av;
+    (void)ac;
     i = 0;
     while (env[i] != NULL)
     {
